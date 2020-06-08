@@ -3,6 +3,13 @@
 Extract SQL ASTs from PostgreSQL queries as JSON text.
 * parser: https://github.com/lfittl/libpg_query
 
+```console
+$ pg2json <SQL_FILE>
+```
+
+## Installation
+* x86_64 static binary: https://github.com/maiha/pg2json/releases
+
 ## Usage
 
 Execute the command with the postgresql SQL file as an argument.
@@ -30,6 +37,9 @@ name    varchar
 
 ```console
 $ make
+$ ./pg2json ...
+
+$ make test
 ```
 
 ## Contributing
