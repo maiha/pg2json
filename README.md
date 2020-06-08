@@ -1,4 +1,4 @@
-# pg2json
+# pg2json [![Build Status](https://travis-ci.org/maiha/pg2json.svg?branch=master)](https://travis-ci.org/maiha/pg2json)
 
 Extract SQL ASTs from PostgreSQL queries as JSON text.
 * parser: https://github.com/lfittl/libpg_query
